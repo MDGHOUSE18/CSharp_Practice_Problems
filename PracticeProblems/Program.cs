@@ -1,4 +1,4 @@
-﻿using PracticeProblems.Collections;
+﻿using PracticeProblems.Collections.Generics;
 using PracticeProblems.Fundementals;
 using System;
 
@@ -14,6 +14,7 @@ namespace PracticeProblems
             //Loops.hello();
             //Patterns.pattern();
             Generics.generics();
+            //Refactor.refactor();
 
             Console.WriteLine();
         
