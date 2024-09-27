@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace PracticeProblems
+namespace PracticeProblems.Strings
 {
     internal class Anagrams
     {
         public static void anagramOrNot()
         {
             Console.Write("Enter the first String : ");
-            String str1 = Console.ReadLine();
+            string str1 = Console.ReadLine();
             Console.Write("Enter the second string :");
-            String str2 = Console.ReadLine();
+            string str2 = Console.ReadLine();
 
-            if(str1.Length != str2.Length)
+            if (str1.Length != str2.Length)
             {
                 Console.WriteLine("Not Anagram");
                 return;
@@ -26,7 +26,7 @@ namespace PracticeProblems
             Array.Sort(arr1);
             Array.Sort(arr2);
 
-            for(int i = 0; i < arr1.Length; i++)
+            for (int i = 0; i < arr1.Length; i++)
             {
                 if (arr1[i] != arr2[i])
                 {

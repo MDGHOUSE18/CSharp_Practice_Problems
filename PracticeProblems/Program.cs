@@ -13,8 +13,10 @@ namespace PracticeProblems
 
             //Loops.hello();
             //Patterns.pattern();
-            Generics.generics();
+            //Generics.generics();
             //Refactor.refactor();
+
+            Students.
 
             Console.WriteLine();
         

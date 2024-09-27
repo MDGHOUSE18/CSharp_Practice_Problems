@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PracticeProblems
+namespace PracticeProblems.Strings
 {
     internal class ReverseString
     {
@@ -15,9 +15,9 @@ namespace PracticeProblems
 
             string newStr = "";
 
-            for(int i= arr.Length - 1;i >= 0;i--)
+            for (int i = arr.Length - 1; i >= 0; i--)
             {
-                newStr += arr[i] +" ";
+                newStr += arr[i] + " ";
             }
             Console.WriteLine("After reversing ");
             Console.WriteLine(newStr);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PracticeProblems
+namespace PracticeProblems.Strings
 {
     internal class SubString
     {
@@ -12,7 +12,7 @@ namespace PracticeProblems
             string str = Console.ReadLine();
             string unique = "";
 
-            foreach(char c in str)
+            foreach (char c in str)
             {
                 if (!unique.Contains(c))
                 {
@@ -20,7 +20,7 @@ namespace PracticeProblems
                 }
             }
 
-            Console.Write("The longest substring in a given string that does not contain any repeating characters are "+unique);
+            Console.Write("The longest substring in a given string that does not contain any repeating characters are " + unique);
         }
     }
 }

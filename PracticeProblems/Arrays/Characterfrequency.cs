@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 
-namespace PracticeProblems
+namespace PracticeProblems.Arrays
 {
     internal class Characterfrequency
     {
@@ -15,14 +15,14 @@ namespace PracticeProblems
             int[] freq = new int[26];
             foreach (char ch in str)
             {
-                if (ch >= 'a' && ch<='z')
+                if (ch >= 'a' && ch <= 'z')
                 {
-                    int index = ch-'a';
+                    int index = ch - 'a';
                     freq[index]++;
                 }
             }
 
-            
+
 
             for (int i = 0; i < freq.Length; i++)
             {
