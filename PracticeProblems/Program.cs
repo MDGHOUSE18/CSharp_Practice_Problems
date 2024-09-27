@@ -1,5 +1,6 @@
 ﻿using PracticeProblems.Collections.Generics;
 using PracticeProblems.Fundementals;
+using PracticeProblems.LINQ;
 using System;
 
 namespace PracticeProblems
@@ -16,7 +17,7 @@ namespace PracticeProblems
             //Generics.generics();
             //Refactor.refactor();
 
-            Students.
+            Students.students();
 
             Console.WriteLine();
         
