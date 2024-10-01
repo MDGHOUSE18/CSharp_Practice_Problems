@@ -1,4 +1,5 @@
 ﻿using PracticeProblems.Collections.Generics;
+using PracticeProblems.File_Handling;
 using PracticeProblems.Fundementals;
 using PracticeProblems.LINQ;
 using System;
@@ -19,7 +20,11 @@ namespace PracticeProblems
 
             //Students.students();
 
-            Product_Review_Management.product_review_main();
+            //Product_Review_Management.product_review_main();
+            //FileHandling.fileHandling();
+            //FileClassMethods.classMethods();
+            JsonFileExample.jsonExample();
+
 
             Console.WriteLine();
         
