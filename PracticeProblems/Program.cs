@@ -1,4 +1,5 @@
-﻿using PracticeProblems.Collections.Generics;
+﻿using PracticeProblems.Arrays;
+using PracticeProblems.Collections.Generics;
 using PracticeProblems.Data_Annotations;
 using PracticeProblems.File_Handling;
 using PracticeProblems.Fundementals;
@@ -13,6 +14,11 @@ namespace PracticeProblems
         {
             Console.WriteLine("Hello, Ghouse");
             Console.WriteLine();
+
+            //InputAndPrint.input();
+            //ReverseArray.reverseArr();
+            //SumOfElements.sum();
+            ArrayCopy.arrayCopy();
 
             //Loops.hello();
             //Patterns.pattern();
@@ -29,7 +35,7 @@ namespace PracticeProblems
             //UserRegistrationForm.annotations();
             //EmployeeManagement.eployeeManagement();
 
-            LoginForm.Form();
+            //LoginForm.Form();
 
 
             Console.WriteLine();
