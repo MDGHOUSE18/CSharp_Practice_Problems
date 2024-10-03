@@ -18,7 +18,8 @@ namespace PracticeProblems
             //InputAndPrint.input();
             //ReverseArray.reverseArr();
             //SumOfElements.sum();
-            ArrayCopy.arrayCopy();
+            //ArrayCopy.arrayCopy();
+
 
             //Loops.hello();
             //Patterns.pattern();
@@ -37,7 +38,7 @@ namespace PracticeProblems
 
             //LoginForm.Form();
 
-
+            Demo.EmployeeMangement();
             Console.WriteLine();
         
         }
