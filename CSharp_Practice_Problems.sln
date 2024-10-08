@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeProblems", "PracticeProblems\PracticeProblems.csproj", "{3EE84CD2-5BCC-4310-A7C3-48AA54BB9FA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{4F379F3F-4736-4C48-BF01-EEC137B2E284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{4F379F3F-4736-4C48-BF01-EEC137B2E284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

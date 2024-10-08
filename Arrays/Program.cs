@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PracticeProblems.Arrays;
+using System;
 
 namespace Arrays
 {
@@ -7,6 +8,7 @@ namespace Arrays
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            ArrayCopy.arrayCopy();
         }
     }
 }
